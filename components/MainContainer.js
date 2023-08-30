@@ -5,7 +5,7 @@ const MainContainer = ({ children, keywords }) => {
   return (
     <>
       <Head>
-        <meta keywords={'ulbi tv nextjs' + keywords}></meta>
+        {keywords}
         <title>Главная страница</title>
       </Head>
 
